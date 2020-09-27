@@ -18,12 +18,12 @@ $(function() {
             };
           }
           const ohjelma = $(
-              `<article>
+              `<article style="margin-right: 10px">
                 <header>
-                    <h1>${sarja.show.name}</h1>
+                    <h4>${sarja.show.name}</h4>
                 </header>
                 <figure>
-                <img src="${sarja.show.image.medium}">
+                <img src="${sarja.show.image.medium}" alt="No image found">
                 </figure>
                 <p></p>
             </article>`,
